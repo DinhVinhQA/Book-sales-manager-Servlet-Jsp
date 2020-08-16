@@ -1,0 +1,377 @@
+/*------------Menu----------------*/
+.header__menu-list-sub{
+    display: none;
+}
+.header__menu-item:hover .header__menu-list-sub{
+    display: block;
+    position: absolute;
+    background: #fff;
+    z-index: 2000;
+    padding: 0px;
+    }
+.header__menu-list-sub li{
+    background: #fff;
+    width: 100%;
+    padding: 5px;
+    list-style: none;
+    border-bottom: 1px solid #f1f1f1;
+    width: 165px;
+}
+.header__menu-list-sub li:hover{
+    background: #ff5800;
+ 
+    list-style: none;
+}
+.header__menu-list-sub li a{
+    color: #000;
+text-decoration: none;
+text-align: center;
+}
+
+/*chi tiết sản phẩm*/
+.chitiet-baner{
+    background: #fff;
+    border-radius: 5px;
+     height: 40px;
+     padding: 10px; 
+     margin-top: 35px;
+}
+.chitiet-baner a{
+    color: #000;
+}
+.chitiet-body{
+    margin-top: 30px
+}
+.chitiet-body .chitiet-body-left{
+    padding-left: 0px
+}
+.widget-box {
+    background: #fff;
+    padding: 20px 15px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+.widget-box h3 {
+    font-size: 14px;
+    color: #1c1c1c;
+    text-transform: uppercase;
+    line-height: 22px;
+}
+.content-widget {
+    color: #747474;
+    font-size: 14px;
+    line-height: 20px;
+}
+.returnpolicy {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 0px 15px 0px;
+    font-size: 14px;
+    color: #1c1c1c;
+    line-height: 22px;
+}
+.chitiet-body .chitiet-body-left .chitiet-body-left-content{
+    background: #fff;padding: 10px
+}
+.chitiet-body-right{
+     padding-right: 0px
+}
+.chitiet-body-right-content{
+    background: #fff;display:inline-flex;width: 100% ;
+    padding-bottom: 25px;
+}
+.chitiet-body-right-content img{
+    width: 300px;
+    padding: 10px;
+    padding-top: 97px;
+    height: 413px;
+}
+.chitiet-body-right-content-text{
+    margin-left: 50px
+}
+.chitiet-body-right-content-text h5{
+    padding-top: 30px;
+    word-wrap: break-word;
+    margin: 0px 0px 10px 0px;
+    font-size: 30px;
+    color: #1c1c1c;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: uppercase; 
+}
+.boder-content-text{
+    border-bottom: 1px solid #ebebeb;   padding: 10px 0px 20px 0px;  margin-bottom: 30px;
+}
+.chitiet-body-right-content-text  ins{
+font-style: normal;
+    text-decoration: none;
+    font-size: 30px;
+    color: #ff5800;
+    width: 100%;
+}
+.chitiet-body-right-content-text  del{
+    font-size: 13px;
+    font-weight: 400;
+    color: #888888;
+    display: block;
+    margin-left: 10px;
+}
+.noiDung-right-content{
+    width: 400px;
+}
+
+.ty-qty {
+    display: inline-flex;
+    width: 100%;
+    padding: 25px 0px 5px 0px;
+}
+.ty-control-group__label{
+    margin-right: 10px;
+}
+.ty-value-changer__decrease {
+    display: inline-block;
+    padding: 2px;
+    height: 31px;
+    background: #ebebeb;
+    width: 25px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    border-right: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+}
+input.ty-value-changer__input {
+    width: 40px;
+    height: 31px !important;
+    margin: 0px 0px 0px 0px;
+    float: left;
+    border: 1px solid #e1e1e1;
+    text-align: center;
+    min-height: inherit;
+}
+.ty-value-changer__increase {
+    display: inline-block;
+    padding: 2px;
+    background: #fff;
+    width: 25px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    border-left: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    float: left;
+    height: 31px;
+}
+.ty-product-block__button-add {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 230px;
+    display: inline-block;
+    line-height: 45px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Montserrat-Regular;
+    border-radius: 5px;
+    background: #ff5a01;
+    float: left;
+    border: 1px solid rgba(0,0,0,0);
+}
+/*-----------------------------------san pham them danh mục-------------------------------------------------------------*/
+
+.product-list-dm {
+    display: grid;
+    border: 1px solid #eee;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 100%;
+    width: 100%;
+}
+.ty-product-filters__switch{
+    font-size: 20px
+}
+.ty-product-filters__block{
+    padding: 10px;
+}
+.ty-product-filters {
+    padding-left: 0px
+}
+.ty-product-filters li{
+    list-style: none;
+}
+.ty-product-filters .ty-product-filters-sub{
+     padding-left: 10px;
+     padding-top: 20px;
+}
+.ty-product-filters__search {
+    position: relative;
+    padding: 10px 10px 0 3px;
+}
+.ty-product-filters__search .ty-input-text-medium {
+    padding-right: 28px;
+    width: 100%;
+}
+.check {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  content: '';
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #c8c8c8;
+    background: #fff;
+    border-radius: 2px;
+}
+
+/* On mouse-over, add a grey background color */
+.check:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.check input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.check input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.check .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.tacGiaScroll {
+    margin-top: 5px;
+  background-color: #fff;
+  width: 250px;
+  height: 500px;
+  overflow: hidden;
+  
+}
+.tacGiaScroll:hover {
+overflow: scroll;
+  
+}
+
+/*------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------pagination-right--------------------------------------*/
+.pagination-right ul li a{
+	color: #FF5800;
+}
+.pagination-right ul li a:hover{
+	color: #fff;
+	background: #ff5a00;
+}
+
+.product-seemore{
+	margin-right: -15px;
+    background: #fff;
+    margin-left: -15px;
+    padding-bottom: 1px;
+}
+.product-seemore p{
+	text-align: center;
+}
+.product-seemore p a{
+	background: #ff5800;
+    padding: 10px 35px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 30px;
+    display: inline-block;
+}
+/*--------------------------------------End -pagination-right--------------------------------------*/
+/*-------------------------------ERROR-------------------------------------*/
+.ty-exception {
+    position: relative;
+    margin: 50px 0px 30px 0px;
+    padding: 40px 0px 70px 0px;
+}
+.ty-exception__code {
+    top: 92px;
+    left: 63px;
+    display: inline-block;
+    width: 300px;
+    color: #e74c3c;
+    text-align: center;
+    font-weight: bold;
+    font-size: 86px;
+    line-height: 70px;
+}
+.ty-exception__code-txt {
+    display: block;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 26px;
+}
+.ty-exception__title-info {
+    display: inline-block;
+    padding-left: 30px;
+}
+.ty-exception__title {
+    padding: 0px 0px 25px 0px;
+    font-size: 25px;
+    font-weight: normal;
+    color: #34495e;
+}
+.ty-exception__info {
+    padding: 0px 0px 30px 0px;
+    color: #bdc3c7;
+    font-size: 110%;
+}
+.ty-exception__links {
+    margin: 0px 20px 0px 0px;
+}
+.ty-exception__links-item {
+    float: left;
+    list-style-type: none;
+    margin-right: 20px;
+}
+.ty-exception__links-a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*-------------------------------End ERROR-------------------------------------*/
